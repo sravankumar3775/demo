@@ -1,14 +1,111 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "shipmentID": "81617499",
+    "currentStatus": "At intermediate origin stop",
+    "initialPickup": {
+        "location": {
+            "name": "BMW PACKAGING BROOKSHIRE (SKD)",
+            "addr1": "545 BROOKSHIRE ROAD",
+            "city": "GREER",
+            "stateProvince": "SC",
+            "postalCode": "29651",
+            "country": "USA"
+        },
+        "actualPickup": "2018-04-06T19:15:00.000-04:00"
+    },
+    "finalDestination": {
+        "location": {
+            "name": "WANDO WELCH TERMINALS",
+            "addr1": "400 LONG POINT RD",
+            "city": "MT PLEASANT",
+            "stateProvince": "SC",
+            "postalCode": "29464",
+            "country": "USA"
+        }
+    },
+    "additionalPickups": [
+        {
+            "location": {
+                "name": "BMW PACKAGING GREER (SKD)",
+                "addr1": "400 LONG POINT RD",
+                "city": "MT PLEASANT",
+                "stateProvince": "SC",
+                "postalCode": "29464",
+                "country": "USA"
+            },
+            "actualPickup": "2018-04-06T19:20:00.000-04:00"
+        },
+        {
+            "location": {
+                "name": "BENORE LOGISTICS SYSTEMS (SKD)",
+                "addr1": "400 LONG POINT RD",
+                "city": "MT PLEASANT",
+                "stateProvince": "SC",
+                "postalCode": "29464",
+                "country": "USA"
+            },
+            "scheduledPickupAppointmentNET": "2018-04-06T00:01:00.000-04:00",
+            "scheduledPickupAppointmentNLT": "2018-04-16T23:59:00.000-04:00"
+        }
+    ],
+    "additionalDeliveries": [
+        {
+            "location": {
+                "name": "CHARLESTON FITNESS",
+                "addr1": "400 LONG POINT RD",
+                "city": "MT PLEASANT",
+                "stateProvince": "SC",
+                "postalCode": "29464",
+                "country": "USA"
+            }
+        },
+        {
+            "location": {
+                "name": "BTT YARD - CHARLESTON",
+                "addr1": "400 LONG POINT RD",
+                "city": "MT PLEASANT",
+                "stateProvince": "SC",
+                "postalCode": "29464",
+                "country": "USA"
+            }
+        },
+        {
+            "location": {
+                "name": "APL LIMITED",
+                "addr1": "400 LONG POINT RD",
+                "city": "MT PLEASANT",
+                "stateProvince": "SC",
+                "postalCode": "29464",
+                "country": "USA"
+            }
+        }
+    ],
+    "shipmentEvents": [
+        {
+            "eventTime": "2018-03-30T15:32:00.000-04:00",
+            "eventStatus": "Booked"
+        },
+        {
+            "eventTime": "2018-04-06T19:08:00.000-04:00",
+            "eventStatus": "Trailer loaded and available at origin"
+        },
+        {
+            "eventTime": "2018-04-06T19:22:00.000-04:00",
+            "eventStatus": "Driver Arrived at Shipper",
+            "address": "BMW PACKAGING BROOKSHIRE (SKD)",
+            "stateProvince": "SC",
+            "zipPostalCode": "29651"
+        },
+        {
+            "eventTime": "2018-04-06T19:22:00.000-04:00",
+            "eventStatus": "Driver Arrived at Extra Pickup",
+            "address": "BMW PACKAGING GREER (SKD)",
+            "stateProvince": "SC",
+            "zipPostalCode": "29651"
+        }
+    ],
+    "completeMoveCount": 1,
+    "incompleteMoveCount": 7,
+    "equipmentPrefix": "TCLU",
+    "equipmentNumber": "942223",
+    "referenceNumber": "MSKBS04.05-11"
 }
